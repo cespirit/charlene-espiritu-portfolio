@@ -1,0 +1,85 @@
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1, h2, h4, h5 {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+}
+
+h5 {
+	letter-spacing: 0.1rem;
+}
+
+/* Navigation Section */
+.navbar {
+	border-bottom: 0.4rem solid #19457a;
+
+	border-bottom: 0.4rem solid #458a9c;
+}
+
+.navbar .navbar-brand {
+	padding: 0 0.9375rem;
+}
+
+.navbar .navbar-brand .brand {
+	display: inline;
+}
+
+.navbar .brand {
+	width: 3.125rem;
+	height: 3.125rem;
+}
+
+/* Introduction Section */
+.introduction {
+	background-image: url('https://ununsplash.imgix.net/uploads/1413387158190559d80f7/6108b580?q=75&fm=jpg&s=d1c3df390a81d3371d05730a396ca390');	
+	background-size: cover;
+	background-position: center center;	
+	background-repeat: no-repeat;
+	min-height: 30rem;
+}
+
+.introduction .container {
+	padding-top: 5rem; 
+	padding-bottom: 5rem;
+	text-align: center;
+	color: white;
+}
+
+/* Projects Section */
+.projects .col-md-4, .footer-content .col-md-4 {
+	padding: 0 1.5rem 0 0;	
+	/* left .5right, middle .5both, right .5left*/
+}
+
+.projects .col-md-4 img{
+	width: 100%;
+}
+
+/* About Section */
+
+
+/* Footer Section */
+.footer-content {
+	border-top: 0.4rem solid #19457a;
+	padding: 2rem 0;
+
+	border-top: 0.4rem solid #458a9c;
+}
+
+.footer-content .social > li {
+	display: inline-block;
+}
+
+@media only screen and (max-width: 350px) { 
+	.navbar .brand-name {
+		display: none;
+	}
+}
