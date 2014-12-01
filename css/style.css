@@ -1,6 +1,7 @@
 html {
 	font-size: 16px;
 	font-family: 'Merriweather Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1, h3, h4, h5 {
@@ -24,10 +25,17 @@ h1, h3, h4, h5 {
 /* Navigation Section */
 .navbar {		
 	border-bottom: 0.2rem solid #19457a;
+	background: url('../images/6ghgesn.jpg');	
 }
 
 .navbar .navbar-brand {
 	padding: 0 0.9375rem;
+	color: white;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+	color: white;
 }
 
 .navbar .brand {
@@ -36,9 +44,17 @@ h1, h3, h4, h5 {
 	height: 3.125rem;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	background-color: #19457a;
 	color: white;
+
+	background-color: white;
+	color: #19457a;
+	outline: 0.0625rem solid #19457a;
 }
 
 /* Masthead Section */
@@ -87,7 +103,8 @@ h1, h3, h4, h5 {
 	box-shadow: 0.09375rem 0.09375rem gray;
 }
 
-.projects .project-link:hover {		/* CAN MAKE INTO A BUTTON CLASS */
+.projects .project-link:hover,
+.projects .project-link:focus {		/* CAN MAKE INTO A BUTTON CLASS */
 	color: #004d83;
 	background: white;	
 	font-weight: normal;
@@ -116,6 +133,7 @@ h1, h3, h4, h5 {
 	letter-spacing: 0;
 	color: #004d83;
 	font-weight: bold;
+	margin-top: 1rem;
 }
 
 /* Footer Section */
@@ -123,9 +141,9 @@ h1, h3, h4, h5 {
 	padding: 2rem 0;
 	color: white;
 	border-top: 0.2rem solid #19457a;	
-	background: #000A18; /* Old browsers */
-	
-	/* http://www.colorzilla.com/gradient-editor/ hsl: 0 -50 -67*/
+	background: #000A18;
+	background-image: url('../images/6ghgesn.jpg');
+	background-repeat: repeat;
 }
 
 .footer-content a {
@@ -134,7 +152,8 @@ h1, h3, h4, h5 {
 	font-weight: normal;
 }
 
-.footer-content a:hover {
+.footer-content a:hover,
+.footer-content a:focus {
 	color: #f7f7f7;
 	font-weight:bold;
 }
