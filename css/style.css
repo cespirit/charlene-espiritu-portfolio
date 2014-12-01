@@ -22,6 +22,24 @@ h1, h3, h4, h5 {
 	padding: 0 0 0.5rem 1rem;
 }
 
+.normal-button {
+	color: white;	
+	background: #004d83;
+	font-weight: bold;	
+	border-radius: 0.125rem;
+	box-shadow: 0.09375rem 0.09375rem gray;
+	text-decoration: none;	
+}
+
+.normal-button:hover,
+.normal-button:focus {	
+	color: #004d83;
+	background: white;	
+	font-weight: normal;
+	border: 1px solid #004d83; 
+	text-decoration: none;	
+}
+
 /* Navigation Section */
 .navbar {		
 	border-bottom: 0.2rem solid #19457a;
@@ -93,22 +111,8 @@ h1, h3, h4, h5 {
 	width: 100%;
 }
 
-.projects .project-link {			/* CAN MAKE INTO A BUTTON CLASS */
-	color: white;
-	text-decoration: none;
-	background: #004d83;
-	font-weight: bold;
+.projects .project-link {			
 	padding: 0.375rem 0.625rem;
-	border-radius: 0.125rem;
-	box-shadow: 0.09375rem 0.09375rem gray;
-}
-
-.projects .project-link:hover,
-.projects .project-link:focus {		/* CAN MAKE INTO A BUTTON CLASS */
-	color: #004d83;
-	background: white;	
-	font-weight: normal;
-	border: 1px solid #004d83; 
 }
 
 /* About Section */
