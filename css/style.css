@@ -40,6 +40,11 @@ h1, h3, h4, h5 {
 	text-decoration: none;	
 }
 
+.about, 
+.projects {
+	padding-top: 1.875rem;
+}
+
 /* Navigation Section */
 .navbar {		
 	border-bottom: 0.2rem solid #19457a;
