@@ -11,7 +11,7 @@ h1, h3, h4, h5 {
 }
 
 .left-col {
-	padding: 0 1rem 0.5rem 0;
+	padding: 0 1rem 0.5rem 0; 
 }
 
 .mid-col {
@@ -114,6 +114,7 @@ h1, h3, h4, h5 {
 
 .projects .col-md-4 img{
 	width: 100%;
+	height: 16.875rem;
 }
 
 .projects .project-link {			
