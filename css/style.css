@@ -227,3 +227,17 @@ h1, h3, h4, h5 {
 		font-size: 1em;
 	}
 }
+
+@media screen and (max-width: 325px) {
+	.navbar .navbar-brand {
+		font-size: 1em;
+	}
+
+	.projects .caption-text h4 {
+		font-size: 0.95em;
+	}	
+
+	.projects .caption-text p {
+		font-size: 0.85em;
+	}
+}
